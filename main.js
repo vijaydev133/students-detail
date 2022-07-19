@@ -5,6 +5,7 @@ let students = [
         mbl : 9259874550,
         batch : "FSD10",
         git : "https://github.com/vijaydev133",
+        gitUName: "vijaydev133" ,
         Refby : "M. Chermaraja",
         loc : "Online",
         plcsts : "Not Started"
@@ -16,6 +17,7 @@ let students = [
         mbl : 938527410,
         batch : "FSD09",
         git : "https://github.com/vijaydev133",
+        gitUName: "vijaydev133" ,
         Refby : "K Rahul",
         loc : "Pavoorchatram",
         plcsts : "Not Started"
@@ -27,6 +29,7 @@ let students = [
         mbl : 936874590,
         batch : "FSD05",
         git : "https://github.com/vijaydev133",
+        gitUName: "vijaydev133" ,
         Refby : "S Vinith",
         loc : "Chennai",
         plcsts : "Not Started"
@@ -44,7 +47,7 @@ students.forEach(e=>{
 
     let a = document.createElement("a")
     a.href = e.git
-    a.textContent = e.git
+    a.textContent = e.gitUName
 for(let i = 0; i <= 7; i++){
     let cell = row.insertCell();
      switch(i){
